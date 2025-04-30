@@ -39,6 +39,6 @@ jobs:
             docker stop react-frontend || true
             docker rm react-frontend || true
 
-            docker load -i /home/${{ secrets.SERVER_USER }}/react-frontend.tar
+            docker load -i /home/${{ secrets.SERVER_USER }}/react-frontend.tar/react-frontend.tar
 
             docker run -d --name react-frontend -p 3000:3000 --restart=unless-stopped react-frontend
