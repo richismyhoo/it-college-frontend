@@ -15,32 +15,32 @@ const backgroundStyle = {
 
 const gradient1 = {
   position: 'absolute',
-  width: '700px',
-  height: '700px',
-  left: '-200px',
-  top: '-200px',
+  width: '36.46vw',
+  height: '64.81vh',
+  left: '-10.42vw',
+  top: '-18.52vh',
   background: 'radial-gradient(circle at 30% 30%, #7c3aed 0%, transparent 70%)',
-  filter: 'blur(60px)',
+  filter: 'blur(3.13vw)',
   opacity: 0.7,
 };
 const gradient2 = {
   position: 'absolute',
-  width: '600px',
-  height: '600px',
-  right: '-150px',
-  top: '200px',
+  width: '31.25vw',
+  height: '55.56vh',
+  right: '-7.81vw',
+  top: '18.52vh',
   background: 'radial-gradient(circle at 70% 30%, #2196f3 0%, transparent 70%)',
-  filter: 'blur(80px)',
+  filter: 'blur(4.17vw)',
   opacity: 0.6,
 };
 const gradient3 = {
   position: 'absolute',
-  width: '500px',
-  height: '500px',
+  width: '26.04vw',
+  height: '46.30vh',
   left: '50%',
-  bottom: '-200px',
+  bottom: '-18.52vh',
   background: 'radial-gradient(circle at 50% 80%, #ff3c6e 0%, transparent 70%)',
-  filter: 'blur(100px)',
+  filter: 'blur(5.21vw)',
   opacity: 0.4,
   transform: 'translateX(-50%)',
 };
@@ -100,8 +100,8 @@ function Register() {
         <Box sx={gradient3} />
       </Box>
       <Box sx={{ position: 'relative', zIndex: 2, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <Paper elevation={6} sx={{ p: 5, borderRadius: 4, minWidth: 340, maxWidth: 400, background: 'rgba(20,20,30,0.95)', boxShadow: '0 4px 32px #7c3aed33', border: '1.5px solid #7c3aed55' }}>
-          <Typography variant="h5" align="center" sx={{ mb: 2, color: '#fff', fontWeight: 800, textShadow: '0 2px 16px #7c3aed55' }}>
+        <Paper elevation={6} sx={{ p: '2.60vw', borderRadius: '0.21vw', minWidth: '17.71vw', maxWidth: '20.83vw', background: 'rgba(20,20,30,0.95)', boxShadow: '0 0.21vw 1.67vw #7c3aed33', border: '0.078vw solid #7c3aed55' }}>
+          <Typography variant="h5" align="center" sx={{ mb: '1.04vh', color: '#fff', fontWeight: 800, textShadow: '0 0.104vw 0.83vw #7c3aed55' }}>
             Регистрация
           </Typography>
           {success ? (
