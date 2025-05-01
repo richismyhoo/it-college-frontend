@@ -4,6 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import SchoolIcon from '@mui/icons-material/School';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 function Navbar() {
   return (
@@ -107,6 +108,29 @@ function Navbar() {
             startIcon={<MenuBookIcon />}
           >
             Курсы
+          </Button>
+          <Button
+            component={RouterLink}
+            to="/offline"
+            sx={{
+              color: '#fff',
+              fontWeight: 700,
+              fontSize: { xs: '0.9rem', md: '1.05rem' },
+              borderRadius: '2rem',
+              px: { xs: '2.08vw', md: '1.56vw' },
+              py: { xs: '1.04vh', md: '0.52vh' },
+              textTransform: 'none',
+              transition: 'all 0.2s',
+              width: { xs: '100%', md: 'auto' },
+              '&:hover': {
+                background: 'linear-gradient(90deg, #ff3c6e 0%, #2196f3 100%)',
+                color: '#fff',
+                boxShadow: '0 0.104vw 0.83vw #ff3c6e55',
+              },
+            }}
+            startIcon={<LocationOnIcon />}
+          >
+            Офлайн Колледж
           </Button>
           <Button
             component={RouterLink}

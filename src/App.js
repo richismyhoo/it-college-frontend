@@ -8,6 +8,7 @@ import CourseDetails from './pages/CourseDetails';
 import Profile from './pages/Profile';
 import Footer from './components/Footer';
 import Register from './pages/Register';
+import OfflineCollege from './pages/OfflineCollege';
 import './App.css';
 
 const theme = createTheme({
@@ -49,6 +50,7 @@ function App() {
               <Route path="/courses/:id" element={<CourseDetails />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/register" element={<Register />} />
+              <Route path="/offline" element={<OfflineCollege />} />
             </Routes>
           </main>
           <FooterController />

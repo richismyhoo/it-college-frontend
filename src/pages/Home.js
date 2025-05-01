@@ -54,6 +54,7 @@ const gradient1 = {
   filter: 'blur(3.13vw)',
   opacity: 0.7,
 };
+
 const gradient2 = {
   position: 'absolute',
   width: '31.25vw',
@@ -64,6 +65,7 @@ const gradient2 = {
   filter: 'blur(4.17vw)',
   opacity: 0.6,
 };
+
 const gradient3 = {
   position: 'absolute',
   width: '26.04vw',
