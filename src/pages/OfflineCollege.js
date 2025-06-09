@@ -141,7 +141,7 @@ function OfflineCollege() {
               textShadow: '0 0 40px #7c3aed55',
             }}
           >
-            Офлайн Колледж
+            Офлайн Колледж ЧЭМК
           </Typography>
           <Typography 
             variant="h5" 
